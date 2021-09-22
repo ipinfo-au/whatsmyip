@@ -14,9 +14,7 @@ lookupBtn.addEventListener('click', () => {
         loader.style.display = "none";
         details.style.display = "block";
         isDisplay.textContent = `IP: ${data.ip}`;
-        locationDisplay.textContent = `Region: ${data.city}, ${data.region}, ${data.country_name}`;
-        geolocation.textContent = `Geo Location: ${data.latitude}, ${data.longitude}`;
-
+        locationDisplay.textContent = `Location: ${data.city}, ${data.region}, ${data.country_name}`;
     });
 })
 
