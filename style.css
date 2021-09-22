@@ -13,6 +13,7 @@ h1 {
   font-family: 'Festive', cursive;
   font-size: 3rem;
   font-weight: 600;
+  color: FFFFFF;
 }
 .loader-container {
   display: none;
